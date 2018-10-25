@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_color"
+    android:paddingTop="30dp"
+
+    android:paddingRight="30dp"
+    android:paddingLeft="10dp"
+    android:layout_height="match_parent"
+    tools:context=".help">
+
+    <TextView
+        android:id="@+id/BOM"
+        android:layout_width="336dp"
+        android:layout_height="33dp"
+        android:text="1) Bank Of Maharashtra :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/BOMlink"
+        android:layout_width="356dp"
+        android:layout_height="37dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://www.mahaconnect.in/jsp/index.html"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/SBI"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="2) State Bank Of India :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/SBIlink"
+        android:layout_width="356dp"
+        android:layout_height="41dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://www.onlinesbi.com/"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/UB"
+        android:layout_width="346dp"
+        android:layout_height="37dp"
+        android:text="3) Union  Bank :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/UBlink"
+        android:layout_width="357dp"
+        android:layout_height="51dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://www.unionbankofindia.co.in/english/home.aspx"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="354dp"
+        android:layout_height="40dp"
+        android:text="4) Central Bank Of India :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="361dp"
+        android:layout_height="42dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://www.centralbank.net.in/jsp/startMain.jsp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="351dp"
+        android:layout_height="37dp"
+        android:text="5) Indian Bank :"
+        android:layout_marginTop="9dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="358dp"
+        android:layout_height="47dp"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text="https://www.indianbank.net.in/jsp/startIB.jsp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbtn"
+        android:text="Back"
+        android:textSize="18sp" />
+</LinearLayout>
